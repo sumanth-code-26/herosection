@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(taskkill //F //IM chrome.exe)",
+      "Bash(curl -s -o \"/c/Users/USER/AppData/Local/Temp/claude/c--Users-USER-Downloads-animate/4a00db61-abf2-41d5-94e6-823ddb1d3b7f/scratchpad/liveserver-served.html\" -w \"HTTP:%{http_code} size:%{size_download}\\\\n\" \"http://127.0.0.1:5500/herosection.html\")"
+    ]
+  }
+}

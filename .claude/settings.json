@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -D - -o /dev/null -A \"Mozilla/5.0\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/1ebbf9c94-a3ec-4785-a0f9-801fa4b1ad83.png\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -o \"/c/Users/USER/AppData/Local/Temp/claude/c--Users-USER-Downloads-animate/4a00db61-abf2-41d5-94e6-823ddb1d3b7f/scratchpad/test0.png\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/13aee144c-97bd-44f7-880a-97de843887ca.png\" -w \"HTTP:%{http_code} size:%{size_download}\\\\n\")",
+      "Read(//c/Users/USER/AppData/Local/Temp/claude/c--Users-USER-Downloads-animate/4a00db61-abf2-41d5-94e6-823ddb1d3b7f/scratchpad/**)",
+      "Read(//c/Users/USER/AppData/Local/Temp/claude/c--Users-USER-Downloads-animate/4a00db61-abf2-41d5-94e6-823ddb1d3b7f/scratchpad//**)",
+      "Bash(cp \"/c/Users/USER/AppData/Local/Temp/claude/c--Users-USER-Downloads-animate/4a00db61-abf2-41d5-94e6-823ddb1d3b7f/scratchpad/test0.png\" \"/c/Users/USER/Downloads/animate/images/work-1-kizunaai.png\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -o \"/c/Users/USER/Downloads/animate/images/work-2-weargoland.png\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/173ab211a-d602-435b-8862-b79cf8c03bcb.png\" -w \"img2 HTTP:%{http_code} size:%{size_download}\\\\n\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -o \"/c/Users/USER/Downloads/animate/images/work-3-discoat.png\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/1223765a4-6f1b-44b2-bf2d-ad4b28a6e7a0.png\" -w \"img3 HTTP:%{http_code} size:%{size_download}\\\\n\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -o \"/c/Users/USER/Downloads/animate/images/work-4-matsuken.png\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/191ebd3da-298a-4454-9b3c-8f3c15a9a236.png\" -w \"img4 HTTP:%{http_code} size:%{size_download}\\\\n\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -o \"/c/Users/USER/Downloads/animate/images/work-5-radwimps.png\" \"https://image.qwenlm.ai/public_source/e8bf7711-bdec-4955-82b3-64f12618c8b9/1ebbf9c94-a3ec-4785-a0f9-801fa4b1ad83.png\" -w \"img5 HTTP:%{http_code} size:%{size_download}\\\\n\")",
+      "Skill(run)",
+      "Skill(run:*)"
+    ]
+  }
+}
